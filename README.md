@@ -1,5 +1,5 @@
 # KYTC-Landing-page
-### Landing page for KYTC made by this skills
+### Landing page for KYTC built by this skills
 * HTML
 * CSS3
 * Responsive web design 
