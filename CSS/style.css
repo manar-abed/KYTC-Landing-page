@@ -1,0 +1,431 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+body{
+    width: 100%;
+}
+.container{
+    width: 100%;
+}
+header {
+    background-color: #00ADEE;
+    width: 100%;
+    height: 400px;
+}
+.heading-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+img.un-logo {
+    height: 80px;
+    width: auto;
+}
+a, a:hover {
+    text-decoration: none;
+    color: inherit;
+}
+.Kytc-name {
+    color: #FFFFFF;
+    font-size: 27px;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.Name-div {
+    padding-top: 4%;
+    padding-left: 2%;
+}
+.sub-div {
+    padding-top: 2%;
+}
+
+/* contactForm-Sec******************************* */
+#contactForm-Sec {
+    width: 50%;
+    height: 620px;
+    padding-top: 25px;
+    background-color: #fff;
+    border-radius: 12px;
+    margin-top: -19%;
+    margin-left: 25%;
+    box-shadow: 1px 1px 4px #ccc, -1px -1px 4px #ccc;
+}
+/* .contact-us {
+    font-size: 27px;
+    color: #00ADEE;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 35px;
+    padding-bottom: 25px;
+} */
+.contact-img-div{
+    text-align: center;
+}
+img.contact-img {
+    height: 205px;
+}
+form {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+}
+input, select,textarea {
+    margin-bottom: 27px;
+    border: none;
+    border-bottom: 1px solid #00ADEE;
+    width: 60%;
+    margin: auto;
+}
+/* textarea::placeholder{
+    padding-top: 20px;
+} */
+button.send {
+    width: 20%;
+    padding: 10px 10px;
+    border-radius: 20px;
+    border: none;
+    background-color: #00ADEE;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+.contact-botton{
+    text-align: center;
+}
+button.send:hover{
+    color: #fff;
+    background-color: #ee5f3ec4;
+    cursor: pointer;
+}
+/* <!-- start About KYTC************************** --> */
+#AboutKYTC-Sec {
+    width: 100%;
+    height: 450px;
+    min-height: 450px;
+    margin-top: 8%;
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.kytc-info {
+    width: 47%;
+}
+.AboutKYTC-img{
+    width: 47%;
+}
+img.about-us-img {
+    width: 100%;
+    border: 2px solid #f2846b;
+}
+img.about-us-img:hover {
+    transform: rotate(5deg);
+
+}
+li {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 25px;
+    font-family: cursive;
+    color: #939EB8;
+}
+.border-icon {
+    width: 34px;
+    padding: 2px 1px;
+    border: 1px solid #f2846b;
+    border-radius: 13px;
+    text-align: center;
+    margin: auto;
+    margin-right: 28px; 
+}
+.check-icon-div {
+    width: 29px;
+    padding: 4px 0px;
+    background-color: #ee5f3ec4;
+    border-radius: 13px;
+    text-align: center;
+}
+.check-icon {
+    font-size: 16px;
+    color: #fff;
+}
+
+.About-ktyc{
+    font-family: cursive;
+    color: #939EB8;
+    margin-bottom: 25px;
+    padding-left: 28px;
+}
+/* #programs-Sec *********************** */
+#programs-Sec {
+    width: 100%;
+    height: 1200px;
+    min-height: 1200px;
+    margin-top: 8%;
+    background-color: #F1F1F1;
+    font-family: sans-serif;
+}
+.Technical-program{
+    width: 100%;
+    height: 300px;
+    min-height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 4%;
+}
+.Trade-program{
+    width: 100%;
+    height: 220px;
+    min-height: 250px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 4%;
+}
+.sub-program{
+    min-height: 200px;
+    height: 250px;
+    width: 22%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+}
+.sub-program:hover{
+ border: 1px solid #00ADEE;
+}
+#programs-Sec h2{
+    color: #555555;
+    margin: auto;
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    text-transform: uppercase;
+    background-color: #00ADEE;
+}
+#programs-Sec h2:hover{
+    background-color: #555555;
+    color: #00ADEE;
+}
+.program-name{
+    color: #00ADEE;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 14%;
+    margin-bottom: 18%;
+}
+
+.course-info {
+    font-weight: bold;
+    color: #555555cc;
+    font-size: 14px;
+    text-align: center;
+}
+.bulk,.stethoscope,.first-aid,.code,.building,.combined,.tools-icon,.plug,.chair,.brush,.wrench,.brush-icon{
+    color: #555555;
+    font-size: 32px;
+}
+.bulk:hover,.stethoscope:hover,.first-aid:hover,.code:hover,.building:hover,.combined:hover,
+.tools-icon:hover,.plug:hover,.chair:hover,.brush:hover,.wrench:hover,.brush-icon:hover{
+    color: #00ADEE;
+}
+/* #KYTCLocation-Sec **************************************/
+#KYTCLocation-Sec{
+    margin-top: 9%;
+    margin-bottom: 9%;
+    text-align: center;
+}
+/* #graduates-Sec********************************** */
+#graduates-Sec {
+    background-color: #F1F1F1;
+    width: 100%;
+    height: 830px;
+    min-height: 800px;
+    display: flex;
+    flex-direction: row;
+    padding: 10px 0px;
+}
+.kytc-party-div{
+    margin-bottom: 10%;
+    text-align: center;
+    padding-top: 33px;
+}
+.kytcParty{
+    color: #555555;
+    text-transform: capitalize;
+    font-size: 30px;
+    font-family: system-ui;
+    padding-left: 300px;
+}
+.kytcParty-name{
+    color: #00ADEE;
+    text-transform: uppercase;
+    font-size: 95px;
+    font-weight: bold;
+    font-family: system-ui;
+    letter-spacing: 6px;
+}
+.graduates-sub-div {
+    padding-left: 17px;
+}
+img.Duaa-img {
+    border: 4px solid #00ADEE;
+    height:720px;
+}
+.graduate{
+    padding-left: 12px;
+}
+ .sub-box-img{
+    display: flex;
+    flex-flow: row wrap;
+    padding: 0px 10px;
+    height: 50%;
+    margin-left: 12%;
+}
+
+.box-img {
+    width: 34%;
+    margin-left: 18px;
+    margin-bottom: 18px;
+    border: 4px solid #00ADEE;
+}
+.graduates-img{
+    width: 100%;
+    height: 100%;
+}
+
+.box-img.box-front,.box-endback {
+    height: 66%;
+}
+.box-lastback,.box-back{
+    height: 40%;
+}
+.box-img.box-endback {
+    margin-top: -107px;
+}
+/* Photos-Videos-Sec**************************** */
+#Photos-Videos-Sec{
+    width: 100%;
+    height: 350px;
+    min-height: 350px;
+    margin-top: 8%;
+}
+video {
+    margin-left: 30%;
+}
+/* #KYTC-Statistics-Sec********************** */
+#KYTC-Statistics-Sec {
+    width: 100%;
+    background-color: #F1F1F1;
+    margin-bottom: 5%;
+    height: 350px;
+    min-height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.kytc-chart-div {
+    margin-bottom: 10%;
+    text-align: center;
+    padding-top: 33px;
+}
+.kytcChart-name {
+    color: #00ADEE;
+    text-transform: uppercase;
+    font-size: 95px;
+    font-weight: bold;
+    font-family: system-ui;
+    letter-spacing: 6px;
+}
+.kytcchart {
+    color: #555555;
+    text-transform: capitalize;
+    font-size: 42px;
+    font-family: system-ui;
+    padding-left: 316px;
+    margin-top: -15px;
+}
+.chart {
+    padding-left: 18px;
+}
+img.chart-img {
+    padding-top: 45px;
+    padding-right: 56px;
+}
+/* footer************************** */
+footer{
+    background-color: #00ADEE;
+    width: 100%;
+    height: 130px; 
+    min-height: 100px; 
+    color: #FFFFFF;
+    font-family: sans-serif;
+}
+.sub-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 110px; 
+    min-height: 100px;
+}
+.heading-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.Kytc-name-footer{
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: bold;
+    padding-left: 5%;
+    padding-top: 4%;
+    text-transform: capitalize;
+}
+.contact-div-info{
+    width: 20%;
+}
+.square.icon,.youtube{
+    padding-right: 16px;
+    font-size: 27px;
+    padding-top: 10px;
+}
+.square.icon:hover,.youtube:hover,.phone:hover,.clock:hover{
+    color: #555555;
+}
+.phone-div,.clock-div {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+.phone-div p{
+    padding-left: 10px;
+    text-transform: capitalize;
+    font-family: sans-serif;
+}
+.clock-div p{
+    padding-left: 10px;
+    color: red;
+    text-transform: capitalize;
+    font-family: sans-serif;
+}
+.phone,.clock{
+    font-size: 22px;
+}
+.copyrigth{
+    background-color: #555555;
+    text-align: center;
+    padding: 5px;
+}
